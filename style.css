@@ -203,6 +203,10 @@ body {
     font-size: 2.5rem;
     margin-top: 40px;
   }
+
+  .show {
+    height: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -298,4 +302,18 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+/* Style for thanks message */
+
+.thanks-msg-container {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
