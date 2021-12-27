@@ -66,19 +66,3 @@ const validateInputs = () => {
     isValid = false;
   }
 };
-
-inputName.addEventListener("input", () => {
-  validateInputs();
-});
-
-inputEmail.addEventListener("input", () => {
-  validateInputs();
-});
-
-inputLastName.addEventListener("input", () => {
-  validateInputs();
-});
-
-inputPhone.addEventListener("input", () => {
-  validateInputs();
-});
