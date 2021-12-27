@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <script src="https://kit.fontawesome.com/87b82da32f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <!-- Contact info (left side) -->
+            <div class="contact-container">
+                <h2>Contact info</h2>
+                <p class="contact-fill">Fill out the form and our team will be in touch in the next 24 hours</p>
+                <div class="contact-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+57 345 234 12 12</p>
+                </div>
+                <div class="contact-email">
+                    <i class="fas fa-envelope"></i>
+                    <p>your_name@company.com</p>
+                </div>
+                <div class="contact-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>102 Avenue Chocolate St</p>
+                </div>
+                <div class="social-media">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+
+            <!-- Form section -->
+            <div class="form-container">
+                <form>
+                    <label for="" class="name">First name</label>
+                    <input type="text" class="input-name">
+                    <p class="validation hidden">Please enter a valid name</p>
+                    <label for="" class="last-name">Last name</label>
+                    <input type="text" class="input-last-name">
+                    <p class="validation hidden">Please enter a valid last name</p>
+                    <label for="" class="email">Email</label>
+                    <input type="email" class="input-email">
+                    <p class="validation hidden">Please enter a valid email</p>
+                    <label for="" class="phone">Phone</label>
+                    <input type="number" class="input-phone">
+                    <p class="validation hidden">Please enter a valid phone number</p>
+                    <label class="question">What kind of website do you want?</label>
+                    <div class="radio-btns">
+                        <div class="e-com-container">
+                            <input type="radio">
+                            <label class="e-commerce">E-commerce</label>
+                        </div>
+                        <div class="l-page-container">
+                            <input type="radio">
+                            <label class="l-page">Landing page</label>
+                        </div>
+                        <div class="form-page-container">
+                            <input type="radio">
+                            <label class="form-page">Form page</label>
+                        </div>
+                    </div>
+                    <label class="message">Message</label>
+                    <textarea class="textarea"></textarea>
+                    <div class="submit-btn-container">
+                        <input type="submit" value="Send form" class="submit-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
